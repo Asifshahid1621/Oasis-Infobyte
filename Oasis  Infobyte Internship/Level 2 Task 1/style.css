@@ -1,0 +1,67 @@
+/* link font google*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   scroll-behavior: smooth;
+   font-family: "Poppins", sans-serif;
+}
+
+body {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #111;
+}
+
+.calculator {
+   background-color: #fff;
+   padding: 20px;
+   position: relative;
+   border-radius: 20px;
+}
+
+.calculator input {
+   width: 60px;
+   height: 60px;
+   border-radius: 10px;
+   outline: none;
+   border: none;
+   margin: 6px;
+   box-shadow: 0 5px 8px #111;
+   cursor: pointer;
+   font-size: 22px;
+   font-weight: 500;
+
+}
+
+.calculator input:active {
+   box-shadow: inset 0 0 20px #111;
+}
+
+.calculator .equel {
+   width: 136px;
+}
+
+.calculator .operator {
+   background-color: orange;
+}
+
+.calculator .dele {
+   background-color: #0ff;
+}
+
+.calculator #result {
+   width: 100%;
+   padding: 0 15px;
+   margin-bottom: 30px;
+}
+
+
+.calculator .result {
+   width: 290px;
+}
